@@ -18,7 +18,7 @@ export default function Home() {
               href="https://shop.runi.baby"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-sans text-2xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-3xl lg:text-4xl"
+              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
             >
               mail club + trinkets
             </a>
@@ -28,7 +28,7 @@ export default function Home() {
               href="https://www.twitch.tv/runi_bb"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-sans text-2xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-3xl lg:text-4xl"
+              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
             >
               twitch
             </a>
@@ -38,7 +38,7 @@ export default function Home() {
               href="https://www.patreon.com/c/runibb"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-sans text-2xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-3xl lg:text-4xl"
+              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
             >
               patreon
             </a>
@@ -48,7 +48,7 @@ export default function Home() {
               href="https://www.tiktok.com/@runi_bb"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-sans text-2xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-3xl lg:text-4xl"
+              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
             >
               tiktok
             </a>
