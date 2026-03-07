@@ -61,7 +61,7 @@ export default function Home() {
           className="mt-5 inline-flex text-white transition-opacity hover:opacity-60"
           aria-label="Send email to runi.babyy@gmail.com"
         >
-          <Mail className="h-12 w-12 sm:h-14 sm:w-14" strokeWidth={1.5} />
+          <Mail className="h-16 w-16 sm:h-20 sm:w-20" strokeWidth={1.5} />
         </a>
       </nav>
     </div>
