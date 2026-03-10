@@ -15,22 +15,22 @@ export default function Home() {
         <ul className="flex flex-col gap-3">
           <li>
             <a
-              href="https://shop.runi.baby"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
-            >
-              mail club + trinkets
-            </a>
-          </li>
-          <li>
-            <a
               href="https://www.twitch.tv/runi_bb"
               target="_blank"
               rel="noopener noreferrer"
               className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
             >
               twitch
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://shop.runi.baby"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
+            >
+              held + seen mail club
             </a>
           </li>
           <li>
