@@ -25,16 +25,6 @@ export default function Home() {
           </li>
           <li>
             <a
-              href="https://shop.runi.baby"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
-            >
-              held + seen mail club
-            </a>
-          </li>
-          <li>
-            <a
               href="https://www.patreon.com/c/runibb"
               target="_blank"
               rel="noopener noreferrer"
