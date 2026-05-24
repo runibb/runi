@@ -35,6 +35,16 @@ export default function Home() {
           </li>
           <li>
             <a
+              href="https://www.youtube.com/@runi_bb"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
+            >
+              youtube
+            </a>
+          </li>
+          <li>
+            <a
               href="https://discord.gg/VSrHTytUV9"
               target="_blank"
               rel="noopener noreferrer"
