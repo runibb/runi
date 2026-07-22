@@ -12,6 +12,28 @@ export default function Home() {
 
       {/* Navigation Content */}
       <nav className="relative z-10 flex h-full flex-col justify-end p-8 pb-12 sm:p-12 sm:pb-16 lowercase">
+        {/* Latest YouTube video */}
+        <div className="mb-6 flex flex-col gap-3">
+          <a
+            href="https://youtu.be/CuR7tmQ7UFA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
+          >
+            latest youtube video
+          </a>
+          <div className="aspect-video w-full max-w-xl overflow-hidden rounded-lg">
+            <iframe
+              className="h-full w-full"
+              src="https://www.youtube.com/embed/CuR7tmQ7UFA"
+              title="Latest YouTube video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
         <ul className="flex flex-col gap-3">
           <li>
             <a
@@ -31,16 +53,6 @@ export default function Home() {
               className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
             >
               tiktok
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/@runi_bb"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
-            >
-              youtube
             </a>
           </li>
           <li>
