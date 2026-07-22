@@ -12,6 +12,24 @@ export default function Home() {
 
       {/* Navigation Content */}
       <nav className="relative z-10 flex h-full flex-col justify-end p-8 pb-12 sm:p-12 sm:pb-16 lowercase">
+        {/* Stream schedule */}
+        <p
+          className="mb-10 font-sans text-4xl text-white tracking-wide sm:text-5xl lg:text-6xl"
+          style={{ WebkitTextStroke: "2px black" }}
+        >
+          live on{" "}
+          <a
+            href="https://www.twitch.tv/runi_bb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline transition-opacity hover:opacity-60"
+            style={{ color: "#9146FF" }}
+          >
+            twitch
+          </a>{" "}
+          every tues, weds, and fri at 6pm eastern
+        </p>
+
         {/* Latest YouTube video */}
         <div className="mb-6 flex flex-col gap-3">
           <a
@@ -62,7 +80,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
             >
-              join discord
+              discord
             </a>
           </li>
         </ul>
