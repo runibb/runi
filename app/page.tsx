@@ -80,7 +80,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
             >
-              join discord
+              discord
             </a>
           </li>
         </ul>
