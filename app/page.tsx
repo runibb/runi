@@ -12,6 +12,14 @@ export default function Home() {
 
       {/* Navigation Content */}
       <nav className="relative z-10 flex h-full flex-col justify-end p-8 pb-12 sm:p-12 sm:pb-16 lowercase">
+        {/* Stream schedule */}
+        <p
+          className="mb-4 font-sans text-3xl text-white tracking-wide sm:text-4xl lg:text-5xl"
+          style={{ WebkitTextStroke: "2px black" }}
+        >
+          live on twitch every tues, weds, and fri at 6pm eastern
+        </p>
+
         {/* Latest YouTube video */}
         <div className="mb-6 flex flex-col gap-3">
           <a
@@ -33,14 +41,6 @@ export default function Home() {
             />
           </div>
         </div>
-
-        {/* Stream schedule */}
-        <p
-          className="mb-4 font-sans text-3xl text-white tracking-wide sm:text-4xl lg:text-5xl"
-          style={{ WebkitTextStroke: "2px black" }}
-        >
-          live on twitch every tues, weds, and fri at 6pm eastern
-        </p>
 
         <ul className="flex flex-col gap-3">
           <li>
