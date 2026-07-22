@@ -14,10 +14,20 @@ export default function Home() {
       <nav className="relative z-10 flex h-full flex-col justify-end p-8 pb-12 sm:p-12 sm:pb-16 lowercase">
         {/* Stream schedule */}
         <p
-          className="mb-4 font-sans text-3xl text-white tracking-wide sm:text-4xl lg:text-5xl"
+          className="mb-4 font-sans text-4xl text-white tracking-wide sm:text-5xl lg:text-6xl"
           style={{ WebkitTextStroke: "2px black" }}
         >
-          live on twitch every tues, weds, and fri at 6pm eastern
+          live on{" "}
+          <a
+            href="https://www.twitch.tv/runi_bb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline transition-opacity hover:opacity-60"
+            style={{ color: "#9146FF" }}
+          >
+            twitch
+          </a>{" "}
+          every tues, weds, and fri at 6pm eastern
         </p>
 
         {/* Latest YouTube video */}
