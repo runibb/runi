@@ -34,6 +34,14 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Stream schedule */}
+        <p
+          className="mb-4 font-sans text-3xl text-white tracking-wide sm:text-4xl lg:text-5xl"
+          style={{ WebkitTextStroke: "2px black" }}
+        >
+          live on twitch every tues, weds, and fri at 6pm eastern
+        </p>
+
         <ul className="flex flex-col gap-3">
           <li>
             <a
