@@ -14,7 +14,7 @@ export default function Home() {
       <nav className="relative z-10 flex h-full flex-col justify-end p-8 pb-12 sm:p-12 sm:pb-16 lowercase">
         {/* Stream schedule */}
         <p
-          className="mb-4 font-sans text-4xl text-white tracking-wide sm:text-5xl lg:text-6xl"
+          className="mb-10 font-sans text-4xl text-white tracking-wide sm:text-5xl lg:text-6xl"
           style={{ WebkitTextStroke: "2px black" }}
         >
           live on{" "}
