@@ -33,7 +33,7 @@ export default function Home() {
         {/* Latest YouTube video */}
         <div className="mb-6 flex flex-col gap-3">
           <a
-            href="https://youtu.be/7mWh9Hlfe7Y"
+            href="https://youtu.be/Q9Zb9qy-fqY"
             target="_blank"
             rel="noopener noreferrer"
             className="font-sans text-5xl text-white tracking-wide transition-opacity hover:opacity-60 sm:text-6xl lg:text-7xl"
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="aspect-video w-full max-w-xl overflow-hidden rounded-lg">
             <iframe
               className="h-full w-full"
-              src="https://www.youtube.com/embed/7mWh9Hlfe7Y"
+              src="https://www.youtube.com/embed/Q9Zb9qy-fqY"
               title="Latest YouTube video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
