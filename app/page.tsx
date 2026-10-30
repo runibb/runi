@@ -27,7 +27,7 @@ export default function Home() {
           >
             twitch
           </a>{" "}
-          every tues and fri at 7pm eastern
+          every tues and fri at 7pm est
         </p>
 
         {/* Latest YouTube video */}
